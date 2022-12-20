@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package javaapplication5;
+import java.util.Scanner;
 
 /**
  *
@@ -16,9 +17,11 @@ public class JavaApplication5 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        //java hello world
-        int a = 5;//value one
-        int b = 3;// value two
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter first number ");
+        int a = input.nextInt();//value one
+        System.out.println("Enter second number ");
+        int b = input.nextInt();// value two
         int c = a+b;//addition
         System.out.println("Addition is "+c);
     }
