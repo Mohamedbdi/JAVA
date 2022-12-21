@@ -22,7 +22,7 @@ public class JavaApplication5 {
         int a = input.nextInt();//value one
         System.out.println("Enter second number ");
         int b = input.nextInt();// value two
-        int c = a+b;//addition
+        int c = a-b;//addition
         System.out.println("Addition is "+c);
     }
     
