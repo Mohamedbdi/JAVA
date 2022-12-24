@@ -23,7 +23,11 @@ public class JavaApplication5 {
         System.out.println("Enter second number ");
         int b = input.nextInt();// value two
         int c = a-b;//addition
+        int subtrac = a+b;
+        int division = a/b;
         System.out.println("Addition is "+c);
+        System.out.println("divition is "+division);
+        System.out.println("subtraction is "+subtrac);
     }
     
 }
