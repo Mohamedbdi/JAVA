@@ -27,7 +27,7 @@ public class JavaApplication5 {
         int division = a/b;
         System.out.println("Addition is "+c);
         System.out.println("divition is "+division);
-        System.out.println("subtraction is "+subtrac);
+        System.out.println("subtractiongggggggggggggggggggggggggg is "+subtrac);
     }
     
 }
