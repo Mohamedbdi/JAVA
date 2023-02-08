@@ -18,16 +18,10 @@ public class JavaApplication5 {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter first number ");
-        int a = input.nextInt();//value one
-        System.out.println("Enter second number ");
-        int b = input.nextInt();// value two
-        int c = a-b;//addition
-        int subtrac = a+b;
-        int division = a/b;
-        System.out.println("Addition is "+c);
-        System.out.println("divition is "+division);
-        System.out.println("subtractiongggggggggggggggggggggggggg is "+subtrac);
+        int number = input.nextInt();
+        for (int i = number; i>=0;i-- ){
+            System.out.println(i);
+        }
     }
     
 }
